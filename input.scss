@@ -1,0 +1,32 @@
+body{
+    padding: 0;
+    margin: 0;
+
+    section{
+        width: 90vw;
+        height: 18vw;
+        border: 3px solid #2A2752;
+        margin: 10vh 0 0 5vw;
+    
+
+        div{
+            display: inline-block;
+            width: 29.5vw;
+            height: 18vw;
+            text-align: left;
+            position: relative;
+
+            &:nth-child(2){
+
+                background-image: url(./img/main.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+
+        
+            p{
+                position: absolute;
+            }
+        }
+    }
+}

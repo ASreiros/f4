@@ -1,0 +1,27 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+body section {
+  width: 90vw;
+  height: 18vw;
+  border: 3px solid #2A2752;
+  margin: 10vh 0 0 5vw;
+}
+body section div {
+  display: inline-block;
+  width: 29.5vw;
+  height: 18vw;
+  text-align: left;
+  position: relative;
+}
+body section div:nth-child(2) {
+  background-image: url(./img/main.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+body section div p {
+  position: absolute;
+}
+
+/*# sourceMappingURL=output.css.map */
