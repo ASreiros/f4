@@ -7,11 +7,12 @@ body{
         height: 18vw;
         border: 3px solid #2A2752;
         margin: 10vh 0 0 5vw;
+        font-size: 0;
     
 
         div{
             display: inline-block;
-            width: 29.5vw;
+            width: calc(100% / 3);
             height: 18vw;
             text-align: left;
             position: relative;
@@ -26,6 +27,7 @@ body{
         
             p{
                 position: absolute;
+                font-size: 16px;
             }
         }
     }

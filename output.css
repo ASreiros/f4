@@ -7,10 +7,11 @@ body section {
   height: 18vw;
   border: 3px solid #2A2752;
   margin: 10vh 0 0 5vw;
+  font-size: 0;
 }
 body section div {
   display: inline-block;
-  width: 29.5vw;
+  width: 33.3333333333%;
   height: 18vw;
   text-align: left;
   position: relative;
@@ -22,6 +23,7 @@ body section div:nth-child(2) {
 }
 body section div p {
   position: absolute;
+  font-size: 16px;
 }
 
 /*# sourceMappingURL=output.css.map */
